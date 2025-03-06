@@ -239,9 +239,11 @@
      }
     .imgg{
       width: 100%;
-      
+     }
+     .numol{
+        font-size: 16px;
      }
     .hr{
-        border-width: 30px;
+        border-width: 2px;
     }
 }

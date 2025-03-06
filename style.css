@@ -1,0 +1,247 @@
+
+.Main{
+    background-image: url(image_dcd1e0b6-017c-4f52-ba23-437be171b2b1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.518);
+}
+.navbar-toggler{
+    background-color: rgb(151, 151, 151);
+}
+.number{
+    background-color: rgba(255, 255, 255, 0.518);
+    height: 20px;
+    text-align: center;
+}
+.hero-text{
+    font-size: 22px;
+}
+.sec-text{
+    font-size: 18px;
+    font-family: "Ponomar", system-ui;
+}
+.Contact{
+    /* background: rgb(0,212,255); */
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,161,193,1) 31%, rgba(0,122,147,1) 57%, rgba(1,69,99,1) 90%);
+    color: #ffffff;
+    height: 45px;
+    width: 160px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: large;
+    border-radius: 10px;
+    position: absolute;
+    top: 80%;
+}
+.caou {
+    position : relative;
+    flex-wrap: wrap;
+    padding : 10px;  
+  }
+  
+  .caou .cardour {
+    position: relative;
+    height : 215px;  
+    background-color : #fff;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .caou .cardour:hover {
+    height : 350px;    
+  }
+  
+  
+  .caou .cardour .image {
+    position : relative;
+    /* width : 280px; */
+    height : 260px;
+    
+    top : -40%;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+  .caou .cardour .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .caou .cardour .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .caou .cardour:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+  /* .imgg{
+    height: auto;
+    width: 100%;
+  } */
+ 
+.caraimg{
+    height: 550px;
+}
+.secol{
+    list-style: circle;
+}
+.contact-form{
+    background: #5543ca;
+    background: linear-gradient(to right,#f4534d8e  0%,#5543ca74  100%) !important;
+   
+    padding: 50px;
+    
+    
+}
+.form-input{
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 0px;
+}
+.getit{
+    /* height: 85vh; */
+    background-color: rgba(14, 171, 118, 0.288);
+}
+.Contact:hover{
+    cursor: pointer;
+    transition: 0.15s;
+    background: rgba(0,212,255,1)
+}
+.hr{
+    width: 100px;
+    background-color: red;
+    border-width: 2px;
+}
+.request{
+    display: flex;
+    flex-direction: column;
+}
+.caring{
+    position: absolute;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    margin-left: 50px;
+    text-shadow: 2px 2px #000000;
+}
+.carousel-container {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+}
+.logo{
+    height: 40px;
+    width: 60px;
+}
+.get{
+    padding: 10px;
+    background-color: rgb(0, 98, 255);
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.nav-link{
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Metrophobic", sans-serif;
+}
+.nav-link:hover{
+    color: rgb(255, 230, 71);
+}
+.nav-link:active{
+    color: aqua;
+}
+.numol{
+    list-style: none;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.controls {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.control-btn {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.control-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+@media only screen and (max-width: 1200px) {
+    .caou .cardour{
+     height: 175px;
+    }
+    .headcard{
+      font-size: larger;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .caou .cardour{
+     height: 125px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .caou .cardour{
+     height: 145px;
+    }
+    .hr{
+        border-width: 30px;
+    }
+    .caring{
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        margin-left: 0px;
+    }
+    .carehead{
+        font-size: 24px;
+    }
+}
+   @media only screen and (max-width: 576px) {
+    .caou .cardour{
+      height: 175px;
+     }
+    .imgg{
+      width: 100%;
+      
+     }
+    .hr{
+        border-width: 30px;
+    }
+}
